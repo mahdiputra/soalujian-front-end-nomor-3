@@ -5,18 +5,7 @@ import Bitkerup from './komponen/bitkerup'
 
 
 class App extends Component {
-  constructor(){
-    super();
-    this.state = {
-        inputUser: 'Anda belum memasukkan nama'
-    }
-  }
-
-  klik(){
-      this.setState({
-          inputUser: this.refs.nama.value, 
-      })
-  }
+  
 
     render() {
         return(
