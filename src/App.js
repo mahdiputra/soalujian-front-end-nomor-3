@@ -47,7 +47,7 @@ class App extends Component {
                     </div>
                   </div>
                   <div className="tab-pane fade" id="profile2" role="tabpanel" aria-labelledby="profile-tab">
-                  <Today id={this.state.inputUser} > </Today>
+                  <Today > </Today>
                   </div>
 
                   <div className="tab-pane fade" id="profile1" role="tabpanel" aria-labelledby="profile-tab">
